@@ -18,7 +18,7 @@ export class Search extends Component {
 
     Result = (e) => {
         e.preventDefault()
-        if (e.target.value != "") {
+        if (e.target.value !== "") {
             this.props.searchProp(this.state.search)
         }
     }
